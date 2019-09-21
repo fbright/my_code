@@ -1,0 +1,70 @@
+$translucent-box-color:  rgba(226, 226, 226, 0.52);
+
+body{
+    background-image:url(blur4.png);   
+}
+.top-margin{
+    margin-top: 50px;
+}
+#table-container{
+    margin-top: 80px;
+}
+#contact-box > p{
+    margin-left: 15px
+}
+#contact-box{
+    position:relative;
+    background-color: $translucent-box-color;
+    width: 70%;
+    border: 1px solid rgb(236, 155, 155);
+    margin: auto;
+    box-sizing: border-box; 
+    padding: 20px; 
+    box-shadow: 0 3px 3px rgb(171, 175, 175);
+}
+.hr-line-box{
+    height:3px; 
+    width:70% ;
+    background-color: rgb(255, 99, 71); 
+    margin-bottom: 0; 
+    position: relative; 
+    top:4px; 
+    z-index: 200;
+}
+#attrib-box > p{
+    margin-left: 15px
+}
+#attrib-box{
+    position:relative;
+    background-color: $translucent-box-color;
+    width: 70%;
+    border: 1px solid rgb(155, 217, 236);
+    margin: auto;
+    box-sizing: border-box; 
+    padding: 20px; 
+    box-shadow: 0 3px 3px rgb(171, 175, 175);
+}
+.img-scaling{
+    width: 100%;
+}
+.gallery-container{
+    margin: 40px auto; 
+    background-image:url(blur4.png); 
+    border: 1px solid rgb(228, 228, 228); 
+    border-radius: 5px
+}
+.typo-home{
+    text-align:center;
+    color: rgb(73, 73, 73); 
+    margin: 12% auto;
+}
+@media (min-width:1890px){
+    body{
+        background-size:100%;
+    }
+}
+@media (max-width:268px){
+    body{
+        background-size: 350% 100%;
+    }
+}
